@@ -56,6 +56,9 @@ JSP 지시어(import를 할때도 쓴다, page 지시어 속성(language,extends
 
 나중에는 EL 표기법으로 간단해지지만 알아두긴 해야한다
 
+Jsp에서의 주석 처리인 <%-- --%>는 클라이언트(사용자)가 볼 수 없습니다. 하지만 Html 주석 처리인 <!-- -->는 사용자가 볼 수 있습니다  
+
+
 
 ##### JSP 내장 객체(시험 나옴, 종류 반드시 알아두자)
 request : 나를 요청하는 page에 대한 모든정보(쿠키,데이터,url등)를 가지고 있다. 연계되지 않는다(생명주기 : 이전 - 나 끝)(request.get 파라미터 많이씀, 체크박스 getParameterValues(String name), Select태그 안에 옵션태그 멀티셀렉트가 가능할때 getParameterValues를 쓴다 name을 같이 쓴다 ?),  
