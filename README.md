@@ -60,3 +60,19 @@ pageContext, out, aaplication, config, page, exception
 
 
 ServletContext : 서블릿의 실행 환경 정보를 담고 있는 객체를 리턴한다(application 내장 객체를 리턴한다)
+
+
+${param.name} getParameter로 가져올때는 그냥 ?
+${request.name}
+${name}setAttribute로 불러올때
+
+
+com.kr
+AccDelete
+AccList
+AllAccDelete
+
+accdelete.jsp
+
+1.accmain.jsp 요청 방식을 servlet으로 수정
+2.AccProductForm과 AccReg를 하나의 servlet으로 합치기
