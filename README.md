@@ -52,8 +52,8 @@ JSP 지시어(import를 할때도 쓴다, page 지시어 속성(language,extends
 
 
 ##### 내장 객체(시험 나옴, 종류 반드시 알아두자)
-request : 나를 요청하는 page에 대한 모든정보(쿠키,데이터,url등)를 가지고 있다. 연계되지 않는다(생명주기 : 이전 - 나 끝),  
+request : 나를 요청하는 page에 대한 모든정보(쿠키,데이터,url등)를 가지고 있다. 연계되지 않는다(생명주기 : 이전 - 나 끝)(request.get 파라미터 많이씀, 체크박스 getParameterValues(String name), Select태그 안에 옵션태그 멀티셀렉트가 가능할때 getParameterValues를 쓴다 name을 같이 쓴다 ?),  
 response : 응답정보를 저장한 객체,  
 session : 특정 한 사용자의 정보를 가지고 있는것(로그인 정보를 관리한다, 특정 한 ip가 요청하면 그 session에 page를 불러옴)(실기에서 나온다)(내가 했던 정보를 다른 page에서 계속
 공유 할 수 있다),    
-pageContext, out, aaplication, config, page, exception
+pageContext, out, aaplication, config, page, exception  
