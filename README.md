@@ -67,12 +67,12 @@ ${request.name}
 ${name}setAttribute로 불러올때
 
 
-com.kr
-AccDelete
-AccList
-AllAccDelete
+com.kr  
+AccDelete  
+AccList  
+AllAccDelete  
 
-accdelete.jsp
+accdelete.jsp  
 
-1.accmain.jsp 요청 방식을 servlet으로 수정
-2.AccProductForm과 AccReg를 하나의 servlet으로 합치기
+1.accmain.jsp 요청 방식을 servlet으로 수정  
+2.AccProductForm과 AccReg를 하나의 servlet으로 합치기  
