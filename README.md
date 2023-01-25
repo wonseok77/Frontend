@@ -80,6 +80,13 @@ pageContext, out, aaplication, config, page, exception
 
 ServletContext : 서블릿의 실행 환경 정보를 담고 있는 객체를 리턴한다(application 내장 객체를 리턴한다)
 
+-- param.type일떄와 request.type 일때의차이점 시험문제로 나옴!
+request.setAttribute 와 어떤것의차이점?
+
+시험문제 : request의 getparameter로  가져온건 param.type
+
+setattribute로해줬으면 param 빼고 그냥 {$name} 이런식으로만 써도됨
+하지만없으면 {$param.name} 이렇게해줘야됨
 
 ${param.name} getParameter로 가져올때는 그냥 ?
 ${request.name}
