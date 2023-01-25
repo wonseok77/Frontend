@@ -22,5 +22,30 @@ javax.servlet.Servlet 인터페이스를 구현(Implements)해서 작성
 get방식 : header에 올린다 (URL에 노출된다, 데이터의 크기가 정해져(256 바이트) 있어서 큰 데이터 불가)  
 Post방식 :  body에 올린다 (body에 숨겨서 올려서 가시적이지 않다 : 회원가입 같은거, 중요한 데이터, 큰 데이터)
 
+##### 웹 컨테이너(톰캣)
+컨테이너에서 request response 생성 후 web.xml을 참조하여 해당 서블릿의 스레드 생성 후 service 메소드 호출  
+  
+service 메소드에서는 요청 방식에 따라 doGet이나 doPost 메소드 호출  
+  
+doGet이나 doPost 메소드에서 응답 생성  
 
+##### JavaScriptPage
+Context root
 
+web.xml에서 불러오는 방법 시험
+
+##### 주석(시험나옴)
+HTML 주석  
+JSP 주석  
+<%-- JSP 주석입니다. %-->
+자바 선언 변수? 코드 스크립틀릿?
+JAVA스타일 주석  
+<%! .... %> 여기 안에서 선언된 변수와 메서드의 정의만 들어간다 JSP로 변환된다.  
+
+JSP 지시어(import를 할때도 쓴다, page 지시어 속성(language,extends,import,session,buffer,autoFlush ---등), include 지시어,    
+
+<%@ ... %> 여기서 정의된거는 지역변수로 들어간다 Servlet으로 변환될때 서비스 메서드 안에, 골뱅이는 지시어 ?  
+
+<%= %> 표현식 자바 함수의 결과값을 browser 화면에 출력할때 쓴다  
+
+나중에는 EL 표기법으로 간단해지지만 알아두긴 해야한다
