@@ -38,7 +38,7 @@ doGet이나 doPost 메소드에서 응답 생성
 ##### JavaScriptPage
 Context root
 
-web.xml에서 불러오는 방법 시험
+web.xml에서 불러오는 방법 시험  
 
 ##### 주석(시험나옴)
 HTML 주석  
@@ -99,6 +99,6 @@ AccList
 AllAccDelete  
 
 accdelete.jsp  
-
+   
 1.accmain.jsp 요청 방식을 servlet으로 수정  
 2.AccProductForm과 AccReg를 하나의 servlet으로 합치기  
